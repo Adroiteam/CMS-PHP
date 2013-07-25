@@ -1,27 +1,28 @@
-body
-{
+
+html, body {
+	height: 100%;
 	margin: 0;
 	padding: 0;
-	color: #555;
+	color: #8A8A8A;
 	font: normal 10pt Arial,Helvetica,sans-serif;
 	background: #EFEFEF;
 }
+#page {
+	padding: 0px 0px 50px 0px;
+	background: #FFFFFF url(images/img09.jpg) repeat;
 
-#page
-{
-	margin-top: 5px;
-	margin-bottom: 5px;
-	background: white;
-	border: 1px solid #C9E0ED;
 }
 
-#header
-{
-	margin: 0;
-	padding: 0;
-	border-top: 3px solid #C9E0ED;
-}
+/* Header */
 
+#header-wrapper {
+	overflow: hidden;
+	height: 250px;
+}
+strong {
+	font-weight: 700;
+	color: #2A2A2A;
+}
 #content
 {
     padding: 20px;
@@ -226,4 +227,8 @@ div.search-form
 .operations li a:hover
 {
 	background: #80CFFF;
+}
+#page-wrapper {
+	overflow: hidden;
+	background: url(images/img03.jpg) repeat;
 }

@@ -754,3 +754,86 @@ Stack trace:
 #11 {main}
 REQUEST_URI=/demo/index.php?r=user/admin
 ---
+2013/07/25 08:10:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\yii\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/5grid/...')
+#3 C:\xampp\htdocs\yii\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\demo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/demo/index.php/site/css/5grid/jquery.js
+HTTP_REFERER=http://localhost/demo/index.php/site/page?view=team
+---
+2013/07/25 08:10:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\yii\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/5grid/...')
+#3 C:\xampp\htdocs\yii\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\demo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/demo/index.php/site/css/5grid/init.js?use=mobile,desktop,1000px&mobileUI=1&mobileUI.theme=none
+HTTP_REFERER=http://localhost/demo/index.php/site/page?view=team
+---
+2013/07/25 08:11:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\htdocs\yii\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('index')
+#1 C:\xampp\htdocs\yii\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page/admin')
+#7 C:\xampp\htdocs\yii\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\demo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/demo/index.php/site/page/admin
+---
+2013/07/25 08:12:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\xampp\htdocs\yii\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\demo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/index.php?r=admin
+---
+2013/07/25 08:13:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/admin".' in C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/admin')
+#1 C:\xampp\htdocs\yii\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\demo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/index.php?r=gii/admin
+---
+2013/07/25 08:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/page".' in C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/page')
+#1 C:\xampp\htdocs\yii\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\demo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/index.php?r=gii/page&view=team
+---
+2013/07/25 08:17:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "testimonial/admin".' in C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('testimonial/adm...')
+#1 C:\xampp\htdocs\yii\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\demo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/index.php?r=testimonial/admin
+---
+2013/07/25 08:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "news" was not found.' in C:\xampp\htdocs\yii\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('news')
+#1 C:\xampp\htdocs\yii\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\demo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/demo/index.php?r=site/page&view=news
+HTTP_REFERER=http://localhost/demo/index.php?r=site/page&view=gallery
+---
