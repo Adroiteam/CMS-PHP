@@ -1,0 +1,5 @@
+templateFunctions file contain logic of getting to template present in
+template folder and call output generation class for output
+
+cmsApplication here data is displayed added or anyother action is perpormed.
+basically main class that controls all

@@ -1,0 +1,5 @@
+includes folder containes all working classes used for this cms
+
+template contains layout both css and html/php files
+
+index.php is a file from where cms begins :)
