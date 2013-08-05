@@ -12,7 +12,8 @@ $this->menu=array(
 	array('label'=>'Manage User', 'url'=>array('admin')),
 );
 ?>
-
-<h1>Create User</h1>
+<section>
+<h2>Create User</h2>
+</section>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

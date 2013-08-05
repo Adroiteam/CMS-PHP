@@ -12,7 +12,7 @@ $this->menu=array(
 	array('label'=>'Manage Gallery', 'url'=>array('admin')),
 );
 ?>
-
-<h1>Create Gallery</h1>
-
+<section id="content">
+<h2>Create Gallery</h2>
+</section>
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

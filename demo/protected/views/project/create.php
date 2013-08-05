@@ -12,7 +12,8 @@ $this->menu=array(
 	array('label'=>'Manage Project', 'url'=>array('admin')),
 );
 ?>
-
-<h1>Create Project</h1>
+<section id="content">
+<h2>Create Project</h2>
+</section>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

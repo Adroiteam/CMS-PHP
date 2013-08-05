@@ -4,11 +4,12 @@
  * This is the model class for table "user".
  *
  * The followings are the available columns in table 'user':
- * @property integer $userid
+ * @property integer $id
+ * @property string $name
  * @property string $email
- * @property string $username
  * @property string $password
  * @property string $designation
+ * @property string $projects
  * @property string $date_of_birth
  * @property string $address
  * @property string $martial_status
@@ -42,12 +43,11 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('email, username, password, designation, date_of_birth, address, martial_status, phone_no', 'required'),
+			array('name, email, password, designation, projects, date_of_birth, address, martial_status, phone_no', 'required'),
 			array('phone_no', 'numerical', 'integerOnly'=>true),
-			array('email, username, password, designation, martial_status', 'length', 'max'=>50),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('userid, email, username, password, designation, date_of_birth, address, martial_status, phone_no', 'safe', 'on'=>'search'),
+			array('id, name, email, password, designation, projects, date_of_birth, address, martial_status, phone_no', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -68,11 +68,12 @@ class User extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'userid' => 'Userid',
+			'id' => 'ID',
+			'name' => 'Name',
 			'email' => 'Email',
-			'username' => 'Username',
 			'password' => 'Password',
 			'designation' => 'Designation',
+			'projects' => 'Projects',
 			'date_of_birth' => 'Date Of Birth',
 			'address' => 'Address',
 			'martial_status' => 'Martial Status',
@@ -91,11 +92,12 @@ class User extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('userid',$this->userid);
+		$criteria->compare('id',$this->id);
+		$criteria->compare('name',$this->name,true);
 		$criteria->compare('email',$this->email,true);
-		$criteria->compare('username',$this->username,true);
 		$criteria->compare('password',$this->password,true);
 		$criteria->compare('designation',$this->designation,true);
+		$criteria->compare('projects',$this->projects,true);
 		$criteria->compare('date_of_birth',$this->date_of_birth,true);
 		$criteria->compare('address',$this->address,true);
 		$criteria->compare('martial_status',$this->martial_status,true);

@@ -12,7 +12,9 @@ $this->menu=array(
 );
 ?>
 
-<h1>Galleries</h1>
+<section id="content">
+<h2>Gallery</h2>
+</section>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

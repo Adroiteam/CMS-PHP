@@ -12,7 +12,8 @@ $this->menu=array(
 	array('label'=>'Manage Careers', 'url'=>array('admin')),
 );
 ?>
-
-<h1>Create Careers</h1>
+<section id="content">
+<h2>create Career</h2>
+</section>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

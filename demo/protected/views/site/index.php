@@ -1,26 +1,6 @@
-<?php
-/* @var $this SiteController */
+<!DOCTYPE HTML>
 
-$this->pageTitle=Yii::app()->name;
-?>
-<html>
-<head>
-<title>Human Research Development Program</title>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<noscript>
-<link rel="stylesheet" href="css/5grid/core.css" />
-<link rel="stylesheet" href="css/5grid/core-desktop.css" />
-<link rel="stylesheet" href="css/5grid/core-1200px.css" />
-<link rel="stylesheet" href="css/5grid/core-noscript.css" />
-<link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="css/style-desktop.css" />
-</noscript>
-<script src="css/5grid/jquery.js"></script>
-<script src="css/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none"></script>
-<!--[if IE 9]><link rel="stylesheet" href="css/style-ie9.css" /><![endif]-->
-</head><body>
+<body>
 <div id="page-wrapper">
 	<div id="page-bgtop">
 		<div id="page-bgbtm">
@@ -28,22 +8,13 @@ $this->pageTitle=Yii::app()->name;
 				<div id="page-content-wrapper">
 					<div class="row">
 						<div class="12u">
-							<div id="banner">
-							<table align = center>
-							<tr>
-							<td><img src="images/pics01.jpg" alt="" height=250 width=250></td><td><img src="images/pics2.jpg" alt="" height=250 width=250></td>
-						<td><img src="images/pics02.jpg" alt="" height=250 width=250></td><td><img src="images/pics03.jpg" alt="" height=250 width=250></td></tr></table>
-						</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="12u">
 							<div class="row">
 								<div class="8u">
 									<section id="content">
-										<h2>Human Resources development program </h2><br><br>
+										<h2>Integer gravida nibh quis urna</h2>
+										<p class="subtitle">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna</p>
 										<p><a href="#"><img src="images/pics02.jpg" alt=""></a></p>
-										<p>Welcome to <strong> HUMAN RESOURCE DEVELOPMENT PROGRAM (HRDP) </strong>,is a non profit organization works on social    mobilization, development of the communities, create awareness about social evils and discrimination like Labour rights, gender discrimination, women harassment, workers low salaries, lake of infrastructure to enhance skill of students, capacity enhancement of young generation to enable them to create small entrepreneurship and capacity building of home base workers. H R D P is working towards gender equality and tries to focus on women social/status development. Promote education and health development activity. Activities related to awareness is carried out through print and electronic media, pamphlets, brochures, banners, posters, Pana-flex, meetings, seminars, workshops, book fair, blood donation events, walks on different issues and mobilization of civic leaders, activists, involved citizens and professionals to improve various aspects of local communities. </p>
+										<p>Welcome to <strong>Aqueous</strong>, a free responsive HTML5 website template designed by <a href="http://html5templates.com/">HTML5Templates.com</a>.   It features a neat and clean color combination, a spacious content area, and a large banner area, making it a great design for a corporate/portfolio type of website.  And like all of our templates, it is built on HTML5 and CSS3, has full responsive support for desktops, tablets, and mobile devices, and is 100% free to use personally or commercially under the <a href="http://html5templates.com/license/">Creative Commons license</a>. Be sure to check out our <a href="http://html5templates.com/">website</a> for more awesome free HTML5 templates and follow us on <a href="http://twitter.com/HTML5T">Twitter</a> for updates and new releases! Enjoy!</p>
 										<p class="button-style"><a href="#">Read Full Article</a></p>
 									</section>
 								</div>
@@ -136,5 +107,3 @@ $this->pageTitle=Yii::app()->name;
 		</div>
 	</div>
 </div>
-</body>
-</html>

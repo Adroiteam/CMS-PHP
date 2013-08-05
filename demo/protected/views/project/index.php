@@ -11,8 +11,10 @@ $this->menu=array(
 	array('label'=>'Manage Project', 'url'=>array('admin')),
 );
 ?>
+<section id="content">
+<h2>Project</h2>
+</section>
 
-<h1>Projects</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
