@@ -12,7 +12,8 @@ $this->menu=array(
 	array('label'=>'Manage News', 'url'=>array('admin')),
 );
 ?>
-
-<h1>Create News</h1>
+<section id="content">
+<h2>Create News</h2>
+</section>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

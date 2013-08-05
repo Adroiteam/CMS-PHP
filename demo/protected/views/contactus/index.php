@@ -11,8 +11,9 @@ $this->menu=array(
 	array('label'=>'Manage Contactus', 'url'=>array('admin')),
 );
 ?>
-
-<h1>Contactuses</h1>
+<section id="content">
+<h2>Contact US</h2>
+</section>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

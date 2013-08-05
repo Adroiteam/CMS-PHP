@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Aqueous: A responsive HTML5 website template by HTML5Templates.com
-	Released for free under the Creative Commons Attribution 3.0 license (html5templates.com/license)
-	Visit http://html5templates.com for more great templates or follow us on Twitter @HTML5T
--->
 <html>
 <head>
 <title>Aqueous by HTML5Templates.com</title>
@@ -137,11 +132,6 @@
 			</div>
 		</div>
 	</div>
-</div>
-<div id="copyright" class="5grid-layout">
-	<section>
-		<p>&copy; HDRP <a href="http://fotogrph.com/">Fotogrph</a> | Design: <a href="http://html5templates.com/">HTML5Templates.com</a></p>
-	</section>ss
 </div>
 </body>
 </html>

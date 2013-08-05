@@ -12,7 +12,8 @@ $this->menu=array(
 	array('label'=>'Manage Survey', 'url'=>array('admin')),
 );
 ?>
-
-<h1>Create Survey</h1>
+<section>
+<h2>Create Survey</h2>
+</section>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -15,7 +15,6 @@ $this->menu=array(
 	array('label'=>'Manage Careers', 'url'=>array('admin')),
 );
 ?>
-
 <h1>Update Careers <?php echo $model->job_id; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

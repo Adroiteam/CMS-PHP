@@ -11,9 +11,9 @@ $this->menu=array(
 	array('label'=>'Manage News', 'url'=>array('admin')),
 );
 ?>
-
-<h1>News</h1>
-
+<section id="content">
+<h2>News</h2>
+</section>
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
