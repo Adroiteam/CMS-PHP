@@ -22,7 +22,7 @@
 		<div class="5grid-layout">
 			<div class="row">
 				<div class="12u" id="logo"> <!-- Logo -->
-					<h1><a href="#" class="mobileUI-site-name">Human Research And Development Programee</a></h1>
+					<h1><a href="#" class="mobileUI-site-name">Human Research And Development Program</a></h1>
 					<p></p>
 				</div>
 			</div>

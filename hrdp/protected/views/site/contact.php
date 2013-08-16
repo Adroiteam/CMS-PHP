@@ -99,12 +99,13 @@ If you have business inquiries or other questions, please fill out the following
 						</p>
 						<table>
 						<tr>
-						<td>
+						
+						<td width =5% height =20%>
+						<a href="https://maps.google.com/maps?hl=en&authuser=0&q=pak+peshawar&ie=UTF-8&hq=&hnear=0x38d917b90f0e79cf:0xa816b2637558a412,Peshawar,+Pakistan&ei=ehH-Ucb4DMWI4ATk0oCQBQ&ved=0CI4BELYD" id="facebook" target="_blank"><img src="images/map.gif" alt="Image" width =5% height =100%></a>
 						</td>
-						<td>
+						<td width =5% height =20%>
 						</td>
-						<td>
-						<a href="https://maps.google.com/maps?hl=en&authuser=0&q=pak+peshawar&ie=UTF-8&hq=&hnear=0x38d917b90f0e79cf:0xa816b2637558a412,Peshawar,+Pakistan&ei=ehH-Ucb4DMWI4ATk0oCQBQ&ved=0CI4BELYD" id="facebook" target="_blank"><img src="images/map.gif" alt="Image" height= 45% width =10%></a>
+						<td width =5% height =20%>
 						</td>
 						</tr>
 						</table>
@@ -130,9 +131,9 @@ If you have business inquiries or other questions, please fill out the following
 		<br>
 		<table>
 		<tr>
-		<td width =5% height =20%><a href="http://freewebsitetemplates.com/go/facebook/" id="facebook" target="_blank"><img src="images/icon2.jpg" alt="Image" height= 20% width =5%></a></td>
-		<td width =5% height =20%>	<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter" target="_blank"><img src="images/icon1.jpg" alt="Image" height= 20% width =5%></a></td>
-		<td width =5% height =20%><a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus" target="_blank"><img src="images/icon3.png" alt="Image" height= 20% width =5%></a></td><td width =5% height =20%> <a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus" target="_blank"><img src="images/icon4.jpg" alt="Image" height= 20% width =5%></td>
+		<td width =1% height =20%><a href="http://freewebsitetemplates.com/go/facebook/" id="facebook" target="_blank"><img src="images/icon2.jpg" alt="Image" height= 20% width =5%></a></td>
+		<td width =1% height =20%>	<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter" target="_blank"><img src="images/icon1.jpg" alt="Image" height= 20% width =5%></a></td>
+		<td width =1% height =20%><a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus" target="_blank"><img src="images/icon3.png" alt="Image" height= 20% width =5%></a></td>
 		<td></td>
 	
 		<td width =5% height =20%></td>
